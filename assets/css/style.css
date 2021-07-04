@@ -17,6 +17,7 @@ body {
     height: 100px;
     width: auto;
     text-align: center;
+    margin-top: 75px;
 }
 
 .start_btn,
@@ -30,3 +31,14 @@ body {
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #007bff;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
