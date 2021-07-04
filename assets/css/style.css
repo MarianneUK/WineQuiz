@@ -16,8 +16,10 @@ body {
 .header {
     height: 100px;
     width: auto;
+    border: #707070;
     text-align: center;
     margin-top: 75px;
+
 }
 
 .start_btn,
@@ -34,11 +36,11 @@ body {
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #007bff;
+    color: #707070;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #fff;
+    background: #F1D8BC;
     cursor: pointer;
 }

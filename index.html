@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
 
@@ -13,31 +13,82 @@
 <body>
     <header>
         <div class="header">
-            <h2>What kind of wine drinker are you?</h2>
+            <h1>What kind of wine drinker are you?</h1>
         </div>
     </header>
 
-    <div class="start_btn"><button>Start Quiz</button></div>
-
-    <div class="quiz_box">
-        <header>
-            <div class="title">What kind of wine drinker are you?</div>
-        </header>
-
-        <section>
-            <div class="question">
-                <!-- question from JavaScript -->
-            </div>
-            <div class="options">
-                <!-- options from JavaScript -->
-            </div>
-        </section>
-
-        <footer>
-            <div class="total_quest"></div>
-            <button class="next_btn">Next</button>
-        </footer>
+    <div class="quiz-box">
+        <div class="start-quiz">start quiz</div>
     </div>
+
+    <div class="quiz-box question1">
+        <h2>What does your wine cellar looks like?</h2>
+        <div class="option type1">You mean my fridge?</div>
+        <div class="option type3">A pile of wine boxes in the basement.</div>
+        <div class="option type2">Modern looking wall-mounted bottle display.</div>
+        <div class="option type4">Temperature controlled under counter wine unit.</div>
+        <button class="back">back</button>
+        <button class="next">next</button>
+        <footer>1 of 6 questions</footer>
+    </div>
+
+    <div class="quiz-box question2">
+        <h2>How do you open your wine?</h2>
+        <div class="option type3">Pocket sized wine opener, very handy.</div>
+        <div class="option type1">My electric opener is so easy!</div>
+        <div class="option type4">Correction: I never 'open' my wine, I use the Coravin.</div>
+        <div class="option type2">A brass tabled mounted opener, it's beautiful!</div>
+        <button class="back">back</button>
+        <button class="next">next</button>
+        <footer>2 of 6 questions</footer>
+    </div>
+
+    <div class="quiz-box question3">
+        <h2>Do you have a decanter?</h2>
+        <div class="option type2">Crystal glass decanters.</div>
+        <div class="option type3">Drink wine for science baby! I use a blender.</div>
+        <div class="option type4">I have a decanter for every style of wine.</div>
+        <div class="option type1">Do I need to decant? I use my mouth.</div>
+        <button class="back">back</button>
+        <button class="next">next</button>
+        <footer>3 of 6 questions</footer>
+    </div>
+
+    <div class="quiz-box question4">
+        <h2>Tell me about your wine glasses</h2>
+        <div class="option type4">Sommelier series, they are hand blown. Not cheap.</div>
+        <div class="option type1">What wine glasses? When I drink my arms flail.</div>
+        <div class="option type3">I have a basic set of reds and Champagne flutes.</div>
+        <div class="option type2">Stunning! Fragile vintage Czech crystal glasses.</div>
+        <button class="back">back</button>
+        <button class="next">next</button>
+        <footer>4 of 6 questions</footer>
+    </div>
+
+    <div class="quiz-box question5">
+        <h2>How do you ready your glasses?</h2>
+        <div class="option type1">Ready my glasses? What are you talking about?</div>
+        <div class="option type3">Flour sacks are ten a penny, I use them all the time.</div>
+        <div class="option type2">I don't use my glasses. I don't want them to break!</div>
+        <div class="option type4">I use a special wine glass polishing cloth of course!</div>
+        <button class="back">back</button>
+        <button class="next">next</button>
+        <footer>5 of 6 questions</footer>
+    </div>
+
+    <div class="quiz-box question6">
+        <h2>What do you set your bottle on?</h2>
+        <div class="option type4">On a silver plated wine coaster.</div>
+        <div class="option type3">On the table.</div>
+        <div class="option type2">I make wine bottle lamps!</div>
+        <div class="option type1">In the recycling bin with the other ten.</div>
+        <button class="back">back</button>
+        <button class="next">next</button>
+        <footer>6 of 6 questions</footer>
+    </div>
+
+</body>
+</html>
     
     <div class="result_box">
         <div class="icon">
@@ -59,11 +110,8 @@
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/3c9e45ada9.js" crossorigin="anonymous"></script>
 
-    <!-- JavaScript prompts and options only -->
-    <script src="js/prompt.js"></script>
-
     <!-- JavaScript script -->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
